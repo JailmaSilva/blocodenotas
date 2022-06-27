@@ -21,6 +21,16 @@ let nome = 'O potencial JavaScript no mercado de trabalho';
 //O Facebook e o Google utilizam tanto o JavaScript que criaram ferramentas próprias para trabalhar melhor com a linguagem. Hoje essas ferramentas são públicas e estão disponíveis para que você as utilize para construir suas próprias páginas e aplicações.
 
 //E tem mais! Estudos apontam que, até 2025, serão criadas cerca de 797 mil vagas de T.I., e o Brasil forma apenas 53 mil pessoas por ano na área.
+let variaveisEhConstantes = "Variaveis e constantes";
+//Por que isso é importante?
+//O conceito de variáveis está entre os conceitos mais importantes ao escrever código para programas. Variáveis são como caixas que guardam informações na memória do computador e que podem ser utilizadas em todas as partes do programa.
+
+//Você provavelmente interage com sistemas que guardam informações nessas caixas:
+
+//Seu nome de usuário quando faz o login no seu computador;
+//O número da sua conta quando você acessa o sistema de um banco;
+//Uma mensagem enviada por um aplicativo podem ser encontradas guardadas em variáveis.
+//Entre essas e outras situações, as variáveis estão presentes no seu dia a dia e você nem percebe! 🥸
 let declararVariavél = "Declarar Variavel"
 // Anota ai: Declarar uma váriavel é o mesmo que dizer 'criar uma váriavel' Em programação, declarar signica dizer ao computador para reservar um espaço na memória para armazenar um dado.
 let name = "let";
