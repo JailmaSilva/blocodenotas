@@ -263,3 +263,149 @@ console.log(verificaidade);
 
 //O pássaro maior > alimenta o pássaro menor;
 //O pássaro menor < é alimentado pelo maior.
+let operdadoresLogicos = "Operadores Lógicos"
+//O que vamos aprender?
+//Nesse conteúdo você vai aprender sobre operadores lógicos.
+
+//Você será capaz de:
+//Estruturar lógicas com duas condições utilizando: && (AND), || (OR) e ! (NOT)
+//Por que isso é importante?
+//Imagine que você está querendo comprar uma blusa em uma loja de departamento online, mas você só ganha desconto se o valor da compra for acima de R$ 50,00 E você comprar um par de meias, ou seja, nessa situação você tem duas condições que precisam ser verdadeiras para ganhar o desconto: a compra ser acima de 50 reais E ter um par de meias.
+
+//Observe, nessa situação, duas condições que precisam ser verdadeiras para resultar no desconto:
+
+//A compra ser acima de R$ 50,00 reais;
+//Comprar um par de meias.
+//Embora o exemplo pareça comum, em sua rotina como pessoa desenvolvedora você vai encontrar situações parecidas, em que é necessário comparar duas condições para saber se vai ou não executar um determinado código, ou, como no caso do exemplo, se vamos ter o desconto. Mas não se preocupe! Vamos te mostrar como você pode resolver esses casos. Vamos lá?
+
+//No seu dia a dia como pessoa desenvolvedora, você deverá resolver problemas em que fará a comparação entre dois valores, aplicando uma lógica em cima do resultado dessa comparação. Para realizar essa operação, você usará o que chamamos de Operadores Lógicos.
+
+
+//O que isso quer dizer?
+
+//Ao trabalhar com operadores lógicos, uma expressão terá apenas dois resultados: verdadeiro ou falso.
+
+//Vamos compreender esse conceito por meio de um exemplo de aplicação? 🤓
+let operadorAnd = '&&';
+//Operador AND - &&
+//Imagine que um amigo seu, aqui chamado de Vinicius, quer passar o dia na praia. Ele trabalha e estuda nos dias de semana e, além disso, Vinicius só vai à praia quando está sol.
+
+//Nesse cenário fictício, não estamos apenas comparando se é final de semana ou apenas se está ensolarado; precisamos que essas duas comparações sejam verdadeiras.
+
+//Vamos supor que, mesmo assim, Vinicius decidiu que ir à praia, porém o local é longe da sua casa e não há meios de transporte público que cheguem até lá.
+
+//Nesse caso, ele precisará ir dirigindo, mas para isso terá que cumprir uma dessas duas condições:
+
+//ou ter gasolina no reservatório do carro para ir à praia;
+//ou ter dinheiro para abastecer.
+//Ainda assim, mesmo que estivesse tudo certo, Vinicius precisa que seu carro NÃO esteja quebrado.
+
+//Nossa! Quantas condições para serem atendidas, não é mesmo!? Mas não se preocupe! Com operadores lógicos, conseguimos fazer isso de maneira bem resumida.
+
+//Vamos ver como funcionariam esses exemplos?
+
+//Vinicius está decidindo se vai à praia, e notou que são necessárias duas coisas:
+
+//Ser final de semana;
+//Estar ensolarado.
+//Nesse caso, é necessário que ambas as condições sejam verdadeiras, caso contrário Vinicius não poderá ir à praia 😟. Convertendo tudo que é negativo para false e positivo para true, 
+
+//O operador AND servirá justamente para fazer a comparação desses cenários, e nos retornar o resultado correto. Esse operador é representado pela sintaxe &&. Vamos testar com código e definir as variáveis utilizadas:
+
+//let ensolarado = false;
+//let fimDeSemana = true;
+//let vaiAPraia;
+//Com as variáveis definidas, podemos usar o operador && (AND).
+
+Copiar
+//let vaiAPraia = ensolarado && fimDeSemana
+console.log(vaiAPraia); // false
+//Como observamos no exemplo, Vinicius ainda não pode ir à praia, pois o dia não está ensolarado. Será que, se mudarmos a variável ensolarado, isso irá resolver o problema de Vinicius?
+
+//Copiar
+let ensolarado = true;
+console.log(vaiAPraia); // true
+//🎉🎉🎉 EBAAA!!! Vinicius está feliz e agora pode ir à praia. 🎉🎉🎉
+
+//Vamos fazer mais um teste? O que será que acontece se fimDeSemana for false?
+
+//👀 Vinicius está de olho no que você está fazendo 👀
+
+
+let fimDeSemana = false;
+//Vinicius: 😨
+
+
+console.log(vaiAPraia); // false
+//Vinicius: 😱
+
+//Vinicius parece não ter gostado que tenhamos mudado a variável finalDeSemana, mas ele entende que é por uma boa causa, afinal você poderá compreender como aplicar Operadores Lógicos.
+
+//Após aprendermos como funciona o operador lógico AND, vamos para o conteúdo do operador OR ou ||, onde Vinicius mostrará a importância de ter gasolina no seu carro. 🚗
+
+//Vinicius: 😢
+let operadorOr = '||';
+//Operador OR - ||
+//É final de semana, está ensolarado e Vinicius está pronto para ir à praia. 🏖️
+
+//Será que ele tem tudo de que precisa?
+
+//Onde Vinicius mora não há transporte público que faça o percurso até a praia. Dessa forma, é necessário ir de carro, e ele deverá cumprir dois critérios:
+
+//O carro ter gasolina;
+//Ele ter dinheiro para abastecer.
+//Em código, podemos usar essa mesma lógica, por meio do nosso operador OR representado pela sintaxe ||. Agora veja como está a situação do Vinicius e se ele pode ir à praia:
+
+
+//let gasolina = true;
+let dinheiro = false;
+let vaiAPraia = gasolina || dinheiro;
+console.log(vaiAPraia); // true
+//Vinicius: 🏖️😎
+
+//Aparentemente, Vinicius é responsável e não planejou ir à praia sem gasolina. Mas vamos supor que o tanque de gasolina está vazando e Vinicius tenha perdido toda a gasolina. O que aconteceria com o código?
+
+//Vinicius: 😱
+
+
+let gasolina = false;
+console.log(vaiAPraia); // false
+//Vinicius: 😭
+
+//É… parece que Vinicius não tinha como ir à praia sem dinheiro e sem gasolina. Desculpe, Vinicius, foi para um bem maior, entender como funciona o operador || (OR).
+
+//Vinicius: 😊👍
+
+//Dando continuidade ao conteúdo, agora você vai aprender sobre o operador ! ou NOT.
+
+//Será que você vai conseguir fazer Vinicius ir à praia? Tudo isso e muito mais nas cenas dos próximos capítulos… 😁
+let operadorNot = "!";
+//Operador NOT - !
+//Imagine que o fim de semana chegou e está ensolarado, e que seu amigo Vinicius tem feito um árduo planejamento para que pudesse ir à praia: tem gasolina no carro e dinheiro para eventualidades ✅
+
+//Nada pode impedi-lo. Ou será que…
+
+//Vamos ver como ocorre essa situação em código?
+
+//Recapitulando… para Vinicius ir até a praia, era necessário que seu carro não estivesse quebrado. Nesse caso:
+
+//carroQuebrado seria a variável;
+//A variável vaiAPraia seria o oposto de carroQuebrado, pois ela necessita que o carro não esteja quebrado.
+//Para isso, você pode utilizar o operador NOT representado pela sintaxe !. Vamos dar uma olhada?
+
+
+let carroQuebrado = true;
+//let vaiAPraia = !carroQuebrado;
+console.log(vaiAPraia); // false
+//Bom, se o carro do Vinicius está consertado, ele pode ir à praia. 👨‍🔬 Hora de testar 👩‍🔬 :
+
+
+c//arroQuebrado = false;
+console.log(vaiAPraia); // true
+//Deu certo, que maravilha! Dessa maneira, foi possível que você aprendesse sobre o funcionamento do operador ! (NOT) e Vinicius conseguiu ir à praia. Não poderíamos ter resultados melhores. 🎉
+
+//Vinicius: 🏖️😎👍
+
+//Parabéns! Você concluiu o conteúdo de operadores lógicos! 🥳
+
+//Foi uma longa jornada com nosso personagem Vinicius, né!? No final tudo deu certo, você aprendeu a usar os operadores e Vinicius finalmente conseguiu ir à praia. Mas não se esqueça, faça os exercícios e estude bastante, assim poderá ajudar mais pessoas por meio da programação!
