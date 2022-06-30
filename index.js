@@ -409,3 +409,4 @@ console.log(vaiAPraia); // true
 //Parabéns! Você concluiu o conteúdo de operadores lógicos! 🥳
 
 //Foi uma longa jornada com nosso personagem Vinicius, né!? No final tudo deu certo, você aprendeu a usar os operadores e Vinicius finalmente conseguiu ir à praia. Mas não se esqueça, faça os exercícios e estude bastante, assim poderá ajudar mais pessoas por meio da programação!
+let carro = 'carro';
