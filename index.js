@@ -411,3 +411,22 @@ console.log(vaiAPraia); // true
 //Foi uma longa jornada com nosso personagem Vinicius, né!? No final tudo deu certo, você aprendeu a usar os operadores e Vinicius finalmente conseguiu ir à praia. Mas não se esqueça, faça os exercícios e estude bastante, assim poderá ajudar mais pessoas por meio da programação!
 let carro = 'carro';
 const teste ='teste';
+let estruturaCondicional = "if e else";
+
+//Por que isso é importante?
+//No seu dia a dia como pessoa desenvolvedora, você precisará escrever instruções que resolvam problemas, e para isso é de extrema importância a utilização das estruturas condicionais. Elas permitem que um programa tenha a capacidade de tomar decisões de acordo com uma determinada condição, tornando o código mais eficiente e inteligente, ou seja, você pode literalmente enviar instruções para o computador realizar uma tarefa caso uma condição seja verdadeira e outra caso a condição seja falsa.
+
+//O que são estruturas condicionais?
+//O tal do if
+//Na sua vida, você constantemente toma decisões que afetam o seu cotidiano, desde as mais simples até as mais complexas. Imagine então que você precisa sair de casa e, se estiver frio, você pega um casaco; se não, você deixa o casaco em casa.
+
+//Você também pode escrever essa tomada de decisão da seguinte forma:
+
+//Se (estiver frio)
+  //saia com casaco
+//Se não
+//  deixe o casaco em casa
+//Como o JavaScript usa palavras em inglês para os comandos, precisamos então traduzir as palavras. É um uso tranquilo do inglês, mesmo as pessoas não fluentes vão pegando o jeito com o tempo. Dessa forma temos:
+
+//Se, em inglês se torna if;
+//Se não, em inglês se torna else.
